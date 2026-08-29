@@ -1,0 +1,11 @@
+id = "aurora-x"
+name = "Aurora X"
+version = "3.0.0"
+schema_version = 1
+authors = ["Ayoub Zulfiqar <contact@ayoubzulfiqar.com>"]
+description = "Pure-AMOLED dark theme with blue/purple aurora tones. Enhanced syntax + UI for Zed."
+repository = "https://github.com/ayoubzulfiqar/Aurora-X"
+homepage = "https://ayoubzulfiqar.com"
+
+[themes]
+"themes/aurora-x.json" = { name = "Aurora X" }
