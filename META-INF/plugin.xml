@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.ayoubzulfiqar.aurorax</id>
+    <name>Aurora X</name>
+    <version>3.0.0</version>
+    <vendor email="contact@ayoubzulfiqar.com" url="https://ayoubzulfiqar.com">Ayoub Zulfiqar</vendor>
+
+    <description><![CDATA[
+        <p>A pure-AMOLED dark theme with blue/purple aurora tones for Android Studio and all
+        IntelliJ-based IDEs. True-black <code>#000000</code> UI + editor background, aurora accent
+        ramp (<code>#86A5FF</code> ice, <code>#C792EA</code> nebula, <code>#89DDFF</code> cyan,
+        <code>#C3E88D</code> green, <code>#F78C6C</code> ember, <code>#FFCB6B</code> gold), and a
+        full editor color scheme covering dozens of languages.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li>3.0.0 — Pure-AMOLED rework, expanded UI + editor scheme, multi-editor release.</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="AuroraXTheme" path="/Aurora X.theme.json" />
+    </extensions>
+</idea-plugin>

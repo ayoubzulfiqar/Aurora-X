@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE scheme SYSTEM "https://www.jetbrains.com/DTD/2023.1/color-scheme.dtd">
+<scheme name="Aurora X" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="CARET_COLOR" value="86A5FF" />
+    <option name="CARET_ROW_COLOR" value="0C0E19" />
+    <option name="GUTTER_BACKGROUND" value="000000" />
+    <option name="LINE_NUMBERS_COLOR" value="3A4B6B" />
+    <option name="LINE_NUMBERS_ON_CARET_ROW_COLOR" value="86A5FF" />
+    <option name="SELECTED_TEARLINE_COLOR" value="86A5FF" />
+    <option name="TEARLINE_COLOR" value="262E47" />
+    <option name="RIGHT_MARGIN_COLOR" value="262E47" />
+    <option name="INDENT_GUIDE" value="15182B" />
+    <option name="INDENT_GUIDE_SELECTED" value="262E47" />
+    <option name="SELECTED_INDENT_GUIDE" value="262E47" />
+    <option name="TARGET_TEARLINE_COLOR" value="86A5FF" />
+    <option name="VCS_LINESTATUS_ADDED" value="63EB90" />
+    <option name="VCS_LINESTATUS_MODIFIED" value="C778DB" />
+    <option name="ERROR_STRIPE_COLOR" value="DD5074" />
+    <option name="WARNING_STRIPE_COLOR" value="FFCB6B" />
+    <option name="READ_ACCESS_MARK_COLOR" value="C792EA" />
+    <option name="WRITE_ACCESS_MARK_COLOR" value="C3E88D" />
+    <option name="ADDED_LINES_COLOR" value="14331F" />
+    <option name="REMOVED_LINES_COLOR" value="33141C" />
+    <option name="MODIFIED_LINES_COLOR" value="2E1B33" />
+    <option name="WHITESPACES_COLOR" value="15182B" />
+    <option name="INJECTED_LANGUAGE_FRAGMENT" value="1C2138" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="262E47" />
+    <option name="FOLDED_TEXT_FOREGROUND" value="576DAF" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="576DAF" />
+    <option name="SCROLLBAR_HOVER_THUMB_COLOR" value="576DAF" />
+    <option name="SCROLLBAR_THUMB_COLOR" value="262E47" />
+    <option name="SCROLLBAR_TRANSPARENT_THUMB_COLOR" value="262E47" />
+    <option name="SCROLLBAR_FREE_THUMB_COLOR" value="262E47" />
+    <option name="SCROLLBAR_FREE_HOVER_THUMB_COLOR" value="576DAF" />
+  </colors>
+  <attributes name="DEFAULT_TEXT">
+    <option name="FOREGROUND" value="C7D5FF" />
+  </attributes>
+  <attributes name="DEFAULT_KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="DEFAULT_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="DEFAULT_STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="DEFAULT_STRING_ESCAPED_CHARACTER">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_VALID_STRING_ESCAPE">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_LINE_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="DEFAULT_BLOCK_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="DEFAULT_DOC_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="DEFAULT_DOC_MARKUP">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="DEFAULT_OPERATION_SIGN">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_PARENTHS">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_BRACKETS">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_BRACES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_COMMA">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_DOT">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_SEMICOLON">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DEFAULT_IDENTIFIER">
+    <option name="FOREGROUND" value="C7D5FF" />
+  </attributes>
+  <attributes name="DEFAULT_FUNCTION_DECLARATION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="DEFAULT_FUNCTION_CALL">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="DEFAULT_METHOD_DECLARATION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="DEFAULT_METHOD_CALL">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="DEFAULT_CLASS">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_CLASS_NAME">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_INTERFACE_NAME">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_ENUM_NAME">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_TYPE_PARAMETER_NAME">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_INSTANCE_FIELD">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_INSTANCE_METHOD">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="DEFAULT_STATIC_FIELD">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_STATIC_METHOD">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="DEFAULT_PARAMETER">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_LABEL">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_CONSTANT">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="DEFAULT_LOCAL_VARIABLE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_LOCAL_VARIABLE_DECLARATION">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_GLOBAL_VARIABLE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="DEFAULT_PREDEFINED_SYMBOL">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_PROPERTY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_TAG">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="DEFAULT_TAG_NAME">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="DEFAULT_ATTRIBUTE">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_ATTRIBUTE_NAME">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_NAMESPACE">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DEFAULT_ANNOTATION">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_METADATA">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_INVALID_STRING_ESCAPE">
+    <option name="FOREGROUND" value="DD5074" />
+  </attributes>
+  <attributes name="DEFAULT_MARKUP_ENTITY">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="DEFAULT_MARKUP_TAG">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="DEFAULT_MARKUP_ATTRIBUTE">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DEFAULT_MARKUP_ATTRIBUTE_VALUE">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="DEFAULT_ENTITY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="ERRORS_ATTRIBUTES">
+    <option name="FOREGROUND" value="DD5074" />
+    <option name="EFFECT_TYPE" value="WAVE_UNDERSCORE" />
+    <option name="EFFECT_COLOR" value="DD5074" />
+  </attributes>
+  <attributes name="WARNING_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+    <option name="EFFECT_TYPE" value="WAVE_UNDERSCORE" />
+    <option name="EFFECT_COLOR" value="FFCB6B" />
+  </attributes>
+  <attributes name="TYPO_ATTRIBUTES">
+    <option name="FOREGROUND" value="576DAF" />
+    <option name="EFFECT_TYPE" value="WAVE_UNDERSCORE" />
+    <option name="EFFECT_COLOR" value="576DAF" />
+  </attributes>
+  <attributes name="HINT_ATTRIBUTES">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="INFO_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="NOT_USED_ELEMENT_ATTRIBUTES">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="DUPLICATE_FROM_SERVER">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="HYPERLINK_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="EFFECT_TYPE" value="LINE_UNDER" />
+    <option name="EFFECT_COLOR" value="82AAFF" />
+  </attributes>
+  <attributes name="FOLDED_TEXT_ATTRIBUTES">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="SEARCH_RESULT_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="262E47" />
+  </attributes>
+  <attributes name="SEARCH_RESULT_WRITE">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="33405F" />
+  </attributes>
+  <attributes name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="33405F" />
+  </attributes>
+  <attributes name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="262E47" />
+  </attributes>
+  <attributes name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="262E47" />
+  </attributes>
+  <attributes name="IDENTIFIER_UNDER_CARET_WRITE_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="33405F" />
+  </attributes>
+  <attributes name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="33405F" />
+  </attributes>
+  <attributes name="CLASS_NAME_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="INTERFACE_NAME_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="ENUM_NAME_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="CONSTANT_ATTRIBUTES">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="STATIC_FINAL_FIELD_ATTRIBUTES">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="STATIC_FIELD_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="STATIC_METHOD_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="PARAMETER_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="LOCAL_VARIABLE_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="LOCAL_VARIABLE_DECLARATION_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="INSTANCE_FIELD_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="INSTANCE_METHOD_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="METHOD_CALL_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="FUNCTION_CALL_ATTRIBUTES">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="KEYWORD_ATTRIBUTES">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="SEMICOLON_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="DOT_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="COMMA_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="PARENTHS_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="BRACES_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="BRACKETS_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="OPERATION_SIGN_ATTRIBUTES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="BAD_CHARACTER_ATTRIBUTES">
+    <option name="FOREGROUND" value="DD5074" />
+    <option name="EFFECT_TYPE" value="WAVE_UNDERSCORE" />
+    <option name="EFFECT_COLOR" value="DD5074" />
+  </attributes>
+  <attributes name="NUMBER_ATTRIBUTES">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="STRING_ATTRIBUTES">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="LINE_COMMENT_ATTRIBUTES">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="BLOCK_COMMENT_ATTRIBUTES">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="DOC_COMMENT_ATTRIBUTES">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="DOC_COMMENT_TAG">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="DOC_COMMENT_MARKUP">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="PY.KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="PY.NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="PY.STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="PY.COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="PY.FUNC_DEFINITION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="PY.CLASS_DEFINITION">
+    <option name="FOREGROUND" value="FFCB6B" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="PY.DECORATOR">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="PY.PREDEFINED_DEFINITION">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="PY.SELF">
+    <option name="FOREGROUND" value="F07178" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="PY.PARAMETER">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="PY.BUILTIN_NAME">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="PY.OPERATOR">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="KOTLIN_KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="KOTLIN_FUNCTION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="KOTLIN_CLASS">
+    <option name="FOREGROUND" value="FFCB6B" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="KOTLIN_PROPERTY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="KOTLIN_ANNOTATION">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="KOTLIN_STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="KOTLIN_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="KOTLIN_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="JAVA_KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="JAVA_STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="JAVA_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="JAVA_LINE_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="JAVA_BLOCK_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="JAVA_DOC_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="JAVA_CLASS">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="JAVA_METHOD">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="JAVA_ANNOTATION">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="JAVA_STATIC_FIELD">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="JAVA_PARAMETER">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="JAVA_LOCAL_VARIABLE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="JS.KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="JS.STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="JS.NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="JS.FUNCTION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="JS.CLASS_NAME">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="JS.LOCAL_VARIABLE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="JS.PARAMETER">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="JS.REGEXP">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="JS.COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="TS.KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="TS.STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="TS.NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="TS.FUNCTION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="TS.CLASS">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="TS.INTERFACE">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="TS.TYPE">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="TS.ENUM">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="TS.PARAMETER">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="TS.COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="TS.REGEXP">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="SQL.KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="SQL.FUNCTION">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="SQL.TABLE">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="SQL.COLUMN">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="SQL.STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="SQL.NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="SQL.COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="SHELL_KEYWORD">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="SHELL_FUNCTION">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="SHELL_VARIABLE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="SHELL_STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="SHELL_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="SHELL_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="YAML_KEY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="YAML_SCALAR_KEY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="YAML_SCALAR_VALUE">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="YAML_STRING">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="YAML_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="YAML_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="TOML_KEY">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="TOML_SEPARATOR">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="TOML_STRING">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="TOML_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="TOML_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="JSON_PROPERTY_KEY">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="JSON_STRING">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="JSON_NUMBER">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="JSON_KEYWORD">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="JSON_BRACES">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="JSON_COMMA">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="JSON_COLON">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="JSON_ERROR_KEY">
+    <option name="FOREGROUND" value="DD5074" />
+  </attributes>
+  <attributes name="HTML_TAG">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="HTML_TAG_NAME">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="HTML_ATTRIBUTE_NAME">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="HTML_ATTRIBUTE_VALUE">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="HTML_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="CSS_PROPERTY_NAME">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="CSS_PROPERTY_VALUE">
+    <option name="FOREGROUND" value="F78C6C" />
+  </attributes>
+  <attributes name="CSS_CLASS">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="CSS_ID">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="CSS_FUNCTION">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="CSS_TAG_NAME">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="CSS_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="CSS_COLOR">
+    <option name="FOREGROUND" value="EEFFFF" />
+  </attributes>
+  <attributes name="XML_TAG">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="XML_TAG_NAME">
+    <option name="FOREGROUND" value="F07178" />
+  </attributes>
+  <attributes name="XML_ATTRIBUTE_NAME">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="XML_ATTRIBUTE_VALUE">
+    <option name="FOREGROUND" value="C3E88D" />
+  </attributes>
+  <attributes name="XML_COMMENT">
+    <option name="FOREGROUND" value="546E7A" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="MARKDOWN_HEADING">
+    <option name="FOREGROUND" value="C3E88D" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="MARKDOWN_BOLD">
+    <option name="FOREGROUND" value="F07178" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="MARKDOWN_ITALIC">
+    <option name="FOREGROUND" value="F07178" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="MARKDOWN_LINK">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="EFFECT_TYPE" value="LINE_UNDER" />
+    <option name="EFFECT_COLOR" value="82AAFF" />
+  </attributes>
+  <attributes name="MARKDOWN_URL">
+    <option name="FOREGROUND" value="82AAFF" />
+    <option name="EFFECT_TYPE" value="LINE_UNDER" />
+    <option name="EFFECT_COLOR" value="82AAFF" />
+  </attributes>
+  <attributes name="MARKDOWN_QUOTE">
+    <option name="FOREGROUND" value="576DAF" />
+    <option name="FONT_TYPE" value="2" />
+  </attributes>
+  <attributes name="MARKDOWN_LIST">
+    <option name="FOREGROUND" value="89DDFF" />
+  </attributes>
+  <attributes name="MARKDOWN_CODE">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="MARKDOWN_INLINE_CODE">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="DIFF_ADDITION">
+    <option name="FOREGROUND" value="63EB90" />
+    <option name="BACKGROUND" value="15331F" />
+  </attributes>
+  <attributes name="DIFF_DELETION">
+    <option name="FOREGROUND" value="DD5074" />
+    <option name="BACKGROUND" value="33141C" />
+  </attributes>
+  <attributes name="DIFF_MODIFIED">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="BACKGROUND" value="2E1B33" />
+  </attributes>
+  <attributes name="ADDED_LINES">
+    <option name="FOREGROUND" value="63EB90" />
+    <option name="BACKGROUND" value="14331F" />
+  </attributes>
+  <attributes name="REMOVED_LINES">
+    <option name="FOREGROUND" value="DD5074" />
+    <option name="BACKGROUND" value="33141C" />
+  </attributes>
+  <attributes name="MODIFIED_LINES">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="BACKGROUND" value="2E1B33" />
+  </attributes>
+  <attributes name="CONSOLE_NORMAL_OUTPUT">
+    <option name="FOREGROUND" value="C7D5FF" />
+  </attributes>
+  <attributes name="CONSOLE_ERROR_OUTPUT">
+    <option name="FOREGROUND" value="DD5074" />
+  </attributes>
+  <attributes name="CONSOLE_USER_INPUT">
+    <option name="FOREGROUND" value="82AAFF" />
+  </attributes>
+  <attributes name="CONSOLE_WARNING_OUTPUT">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="CONSOLE_SYSTEM_OUTPUT">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="MATCHED_BRACE_ATTRIBUTES">
+    <option name="FOREGROUND" value="EEFFFF" />
+    <option name="BACKGROUND" value="262E47" />
+  </attributes>
+  <attributes name="UNMATCHED_BRACE_ATTRIBUTES">
+    <option name="FOREGROUND" value="DD5074" />
+  </attributes>
+  <attributes name="TODO_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="FIXME_ATTRIBUTES">
+    <option name="FOREGROUND" value="DD5074" />
+    <option name="FONT_TYPE" value="1" />
+  </attributes>
+  <attributes name="INLINE_PARAMETER_HINT">
+    <option name="FOREGROUND" value="576DAF" />
+    <option name="BACKGROUND" value="15182B" />
+  </attributes>
+  <attributes name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+    <option name="FOREGROUND" value="576DAF" />
+    <option name="BACKGROUND" value="1C2138" />
+  </attributes>
+  <attributes name="INLINE_REFACTORING_SETTINGS">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="TEMPLATE_VARIABLE_ATTRIBUTES">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="BACKGROUND" value="1C2138" />
+  </attributes>
+  <attributes name="LIVE_TEMPLATE_ATTRIBUTES">
+    <option name="FOREGROUND" value="C792EA" />
+    <option name="BACKGROUND" value="1C2138" />
+  </attributes>
+  <attributes name="POSTFIX_TEMPLATE">
+    <option name="FOREGROUND" value="C792EA" />
+  </attributes>
+  <attributes name="SMART_TAG">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="CODE_VISION_USAGES">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="SECONDARY_LANGUAGE_TOKEN">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="GENERIC_SERVER_ERROR_OR_WARNING">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="MERGE_CONFLICT">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="DUPLICATE_FROM_SERVER">
+    <option name="FOREGROUND" value="576DAF" />
+  </attributes>
+  <attributes name="NULLABILITY_PROBLEM">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+  <attributes name="WEAK_WARNING_ATTRIBUTES">
+    <option name="FOREGROUND" value="FFCB6B" />
+  </attributes>
+</scheme>
