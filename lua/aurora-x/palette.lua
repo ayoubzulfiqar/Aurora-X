@@ -1,0 +1,32 @@
+-- Aurora X — pure-AMOLED palette
+-- Author: Ayoub Zulfiqar (https://ayoubzulfiqar.com)
+local M = {
+  none      = "NONE",
+  black     = "#000000",
+  bg        = "#000000",
+  bg_alt    = "#0C0E19",
+  bg_ui     = "#15182B",
+  bg_ui2    = "#1C2138",
+  fg        = "#C7D5FF",
+  fg_dim    = "#9AA8D6",
+  muted     = "#576DAF",
+  comment   = "#546E7A",
+  ice       = "#86A5FF",
+  nebula    = "#C792EA",
+  cyan      = "#89DDFF",
+  green     = "#C3E88D",
+  ember     = "#F78C6C",
+  gold      = "#FFCB6B",
+  rose      = "#F07178",
+  magenta   = "#DD5074",
+  red       = "#DD5074",
+  green2    = "#63EB90",
+  blue      = "#82AAFF",
+  white     = "#EEFFFF",
+  yellow    = "#FFCB6B",
+  line      = "#262E47",
+  sel       = "#262E47",
+  line_nr   = "#3A4B6B",
+  border    = "#15182B",
+}
+return M
