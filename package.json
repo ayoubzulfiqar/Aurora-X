@@ -1,0 +1,50 @@
+{
+    "name": "aurora-x",
+    "displayName": "Aurora X",
+    "description": "Pure-AMOLED dark theme with blue/purple aurora tones. Enhanced syntax + UI, ported to VS Code, Zed and Android Studio.",
+    "icon": "images/icon.png",
+    "version": "3.0.0",
+    "publisher": "ayoubzulfiqar",
+    "author": {
+        "name": "Ayoub Zulfiqar",
+        "url": "https://ayoubzulfiqar.com",
+        "email": "contact@ayoubzulfiqar.com"
+    },
+    "homepage": "https://ayoubzulfiqar.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ayoubzulfiqar/Aurora-X.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ayoubzulfiqar/Aurora-X/issues"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aurora X",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Aurora X-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+        "aurora",
+        "amoled",
+        "dark",
+        "material",
+        "theme",
+        "flat",
+        "black",
+        "oled"
+    ],
+    "license": "GPL-3.0-only",
+    "maintainers": [
+        "Ayoub Zulfiqar <contact@ayoubzulfiqar.com>"
+    ]
+}
